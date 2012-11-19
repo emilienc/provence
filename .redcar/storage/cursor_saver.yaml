@@ -113,9 +113,6 @@ cursor_positions:
   - :path: config/environments/development.rb
     :cursor_offset: 1375
     :timestamp: 2012-11-18 18:16:07 +01:00
-  - :path: config/environments/production.rb
-    :cursor_offset: 0
-    :timestamp: 2012-11-17 07:15:53 +01:00
   - :path: config/environment.rb
     :cursor_offset: 192
     :timestamp: 2012-11-18 17:48:20 +01:00
@@ -137,4 +134,7 @@ cursor_positions:
   - :path: config/database.yml
     :cursor_offset: 0
     :timestamp: 2012-11-17 08:10:29 +01:00
+  - :path: config/environments/production.rb
+    :cursor_offset: 641
+    :timestamp: 2012-11-19 19:12:22 +01:00
 files_to_retain: 0
