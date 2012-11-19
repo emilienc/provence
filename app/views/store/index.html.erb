@@ -1,0 +1,57 @@
+
+
+<div id="tj_container" class="tj_container">
+        <div class="tj_nav">
+            <span id="tj_prev" class="tj_prev">Precedent</span>
+            <span id="tj_next" class="tj_next">Suivant</span>
+        </div>
+        <div class="tj_wrapper">
+            <ul class="tj_gallery" style="margin:0; padding:0">
+            <% @products.each do |product| %>
+                <li><%=link_to image_tag(product.photo.url),product%></li>
+            <%end%>
+            </ul>
+        </div>
+</div>
+
+ <!-- END Portfolio -->
+    
+    <div style="clear:both"></div>
+    
+    <h1 style="padding: 20px 0">Les créatrices Marine & Annie</h1>
+
+    <!-- First Column -->
+
+    <div class="one-third">
+        <div class="heading_bg"><h2>Client</h2></div>
+          <p><strong>Mr Unknown</strong><br />
+          FRANCE<br /><br />
+          Tel: (+47) 99 88 77 66<br />
+          mail: mail@studios.com
+          </p>
+    </div>
+
+    <!-- Second Column -->
+
+    <div class="one-third">
+        <div class="heading_bg"><h2><%= link_to 'Votre Panier', @cart %></h2></div>
+          <ul class="container_links">
+              <li><a href="#"><%=@cart.line_items.first.product.title unless @cart.line_items.length ==0 %></a></li>
+              <li><a href="#">...</a></li>
+              <li><a href="#"><%=@cart.line_items.last.product.title unless @cart.line_items.length ==0%></a></li>
+              <li><a href="#"><%=@cart.total_price%></a></li>
+          </ul>
+    </div>
+
+    <!-- Third Column -->
+
+    <div class="one-third last">
+       <div class="heading_bg"><h2>Citation</h2></div>
+          <blockquote>&quot;Les femmes qui ont la beauté extérieure servent de modèle, celles qui n'ont que la beauté intérieure servent d'exemples..&quot;</blockquote>       
+          <p><small>– Jérôme Touzalin </small></p>
+    </div>
+
+    <div style="clear:both; height: 40px"></div>
+
+
+

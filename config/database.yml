@@ -6,8 +6,10 @@
 development:
   adapter: postgresql
   database: provence_dev
-  pool: 5
-  timeout: 5000
+  host: localhost
+  username: postgres
+  password: clealizee
+
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -15,11 +17,10 @@ development:
 test:
   adapter: postgresql
   database: provence_test
-  pool: 5
-  timeout: 5000
+  host: localhost
+  username: postgres
+  password: clealizee
 
 production:
   adapter: postgresql
   database: provence_prod
-  pool: 5
-  timeout: 5000

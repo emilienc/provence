@@ -1,0 +1,20 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+ruby:
+  title: ruby
+  description: MyText
+  image_url: rails.png
+  price: 9.99
+
+one:
+  title: MyString
+  description: MyText
+  image_url: rails.png
+  price: 9.99  
+  
+  
+two:
+  title: MyString
+  description: MyText
+  image_url: rails.png
+  price: 9.99

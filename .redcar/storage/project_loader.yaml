@@ -1,0 +1,6 @@
+--- 
+open_files: 
+  - db/migrate/20121117063953_create_products.rb
+  - config/environment.rb
+  - config/environments/development.rb
+  - config/environments/production.rb

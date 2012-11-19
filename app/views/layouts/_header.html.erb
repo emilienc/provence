@@ -1,0 +1,33 @@
+<div class="header">
+   
+    <!-- Logo/Title -->
+    
+    <div id="site_title">
+      <%=image_tag("logo.png")%>
+     </div>  
+   
+    <ol id="menu">
+    <li><%=link_to 'Accueil', store_path%>
+        
+              <!-- sub menu -->
+              <ol>  
+                <li><a href="">Qui sommes nous ?</a></li>
+                <li><a href="">Notre Philosophie</a></li>
+              </ol>
+            </li>
+        
+              <li><%=link_to 'Produits', products_path%>
+        
+            
+              </li>
+              
+        
+              <li><a href="contact.html">Contact</a>
+               <!-- sub menu -->
+              <ol>  
+                <li><a href="">Nous joindre</a></li>
+                <li><a href="">Conditions de vente</a></li>
+              </ol> 
+              </li>
+    </ol>    
+</div> 
