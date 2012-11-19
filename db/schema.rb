@@ -29,9 +29,6 @@ ActiveRecord::Schema.define(:version => 20121118162011) do
   create_table "products", :force => true do |t|
     t.string   "title"
     t.text     "description"
-    t.binary   "photo_file"
-    t.binary   "photo_medium_file"
-    t.binary   "photo_thumb_file"
     t.decimal  "price",              :precision => 8, :scale => 2
     t.datetime "created_at",                                       :null => false
     t.datetime "updated_at",                                       :null => false
