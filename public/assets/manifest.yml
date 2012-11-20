@@ -273,3 +273,5 @@ boxes/css/websymbols/websymbols-regular-webfont.ttf: boxes/css/websymbols/websym
 boxes/css/websymbols/websymbols-regular-webfont/index.ttf: boxes/css/websymbols/websymbols-regular-webfont-528f42839516294eae6fc93a2354d700.ttf
 boxes/css/websymbols/websymbols-regular-webfont.woff: boxes/css/websymbols/websymbols-regular-webfont-16c7e7cf5ce32c80f6c534a58a2cda30.woff
 boxes/css/websymbols/websymbols-regular-webfont/index.woff: boxes/css/websymbols/websymbols-regular-webfont-16c7e7cf5ce32c80f6c534a58a2cda30.woff
+style.css: style-ec0b7ccab6c6e0548be7e4a662e1c91b.css
+style/index.css: style-ec0b7ccab6c6e0548be7e4a662e1c91b.css
