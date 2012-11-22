@@ -14,8 +14,7 @@
 
 #menu_top {
 	    width: 960px;
-        margin: 0 auto 0;
-		background:;
+      margin: 0 auto 0;
 }
 
 #menu_top:before,
@@ -28,9 +27,6 @@
         clear: both;
 }
 
-#menu_top {
-        zoom:1;
-}
 
 #menu_top li {
         float: left;
