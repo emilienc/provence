@@ -49,10 +49,6 @@
         color: #ff08f6;
 }
 
-*html #menu_top li a:hover { /* IE6 only */
-        color: #fafafa;
-}
-
 #menu_top ol {
         margin: 20px 0 0 0;
         _margin: 0; /*IE6 only*/
@@ -177,7 +173,6 @@
 
 #menu {
         margin: 0 auto 0;
-		background:;
 }
 
 #menu:before,
@@ -190,9 +185,6 @@
         clear: both;
 }
 
-#menu {
-        zoom:1;
-}
 
 #menu li {
         float: left;
@@ -216,9 +208,6 @@
         color: #00d8ff;
 }
 
-*html #menu li a:hover { /* IE6 only */
-        color: #fafafa;
-}
 
 #menu ol {
         margin: 20px 0 0 0;
@@ -342,7 +331,6 @@
 
 #menu2 {
         margin: 22px auto 0;
-		background:;
 }
 
 #menu2:before,
@@ -355,9 +343,7 @@
         clear: both;
 }
 
-#menu2 {
-        zoom:1;
-}
+
 
 #menu2 li {
         float: left;
@@ -382,9 +368,6 @@
 		border-radius: 20px
 }
 
-*html #menu2 li a:hover { /* IE6 only */
-        color: #fafafa;
-}
 
 #menu2 ol {
        
