@@ -83,15 +83,9 @@ cursor_positions:
   - :path: app/views/products/_form.html.erb
     :cursor_offset: 45
     :timestamp: 2012-11-18 17:23:13 +01:00
-  - :path: app/views/store/index.html.erb
-    :cursor_offset: 415
-    :timestamp: 2012-11-18 17:25:24 +01:00
   - :path: config/environment.rb
     :cursor_offset: 192
     :timestamp: 2012-11-18 17:48:20 +01:00
-  - :path: db/migrate/20121117063953_create_products.rb
-    :cursor_offset: 141
-    :timestamp: 2012-11-19 18:41:42 +01:00
   - :path: db/migrate/20121118162011_add_attachment_photo_to_products.rb
     :cursor_offset: 0
     :timestamp: 2012-11-18 17:20:11 +01:00
@@ -150,9 +144,6 @@ cursor_positions:
   - :path: app/views/orders/_form.html.erb
     :cursor_offset: 852
     :timestamp: 2012-11-21 07:41:23 +01:00
-  - :path: app/models/product.rb
-    :cursor_offset: 68
-    :timestamp: 2012-11-20 13:20:41 +01:00
   - :path: db/migrate/20121121070124_create_order_transactions.rb
     :cursor_offset: 264
     :timestamp: 2012-11-21 12:59:31 +01:00
@@ -198,6 +189,15 @@ cursor_positions:
     :cursor_offset: 320
     :timestamp: 2012-11-22 07:28:34 +01:00
   - :path: app/admin/products.rb
-    :cursor_offset: 0
-    :timestamp: 2012-11-22 07:20:38 +01:00
+    :cursor_offset: 217
+    :timestamp: 2012-11-22 08:10:44 +01:00
+  - :path: db/migrate/20121117063953_create_products.rb
+    :cursor_offset: 141
+    :timestamp: 2012-11-19 18:41:42 +01:00
+  - :path: app/models/product.rb
+    :cursor_offset: 68
+    :timestamp: 2012-11-20 13:20:41 +01:00
+  - :path: app/views/store/index.html.erb
+    :cursor_offset: 415
+    :timestamp: 2012-11-18 17:25:24 +01:00
 files_to_retain: 0

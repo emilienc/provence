@@ -24,3 +24,6 @@ test:
 production:
   adapter: postgresql
   database: provence_prod
+  host: localhost
+  username: postgres
+  password: clealizee
