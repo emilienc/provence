@@ -1,4 +1,11 @@
 Provence::Application.routes.draw do
+  ActiveAdmin.routes(self)
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+
+  resources :orders
+
+
   resources :line_items
 
 
@@ -7,7 +14,9 @@ Provence::Application.routes.draw do
 
   get "store/index"
 
-  resources :products
+  resources :products do
+    get :who_bought, :on => :member
+  end
 
 
   # The priority is based upon order of creation:

@@ -67,4 +67,14 @@ Provence::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
+  
+   config.after_initialize do
+  ActiveMerchant::Billing::Base.mode = :production
+  ::GATEWAY = ActiveMerchant::Billing::PaypalGateway.new(
+   :login => "anniem_1353478568_biz_api1.gmx.fr",
+   :password => "1353478623",
+   :signature => "AE9O2aY63e-R2gqFe3NF-s2hDQ8KA0Lo4GoEppYGCnz8OzGvs41M51fa"
+  )
+end
+  
 end
