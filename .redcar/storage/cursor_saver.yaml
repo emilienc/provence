@@ -68,9 +68,6 @@ cursor_positions:
   - :path: app/controllers/application_controller.rb
     :cursor_offset: 436
     :timestamp: 2012-11-18 15:36:26 +01:00
-  - :path: app/views/layouts/_header.html.erb
-    :cursor_offset: 104
-    :timestamp: 2012-11-18 16:49:02 +01:00
   - :path: db/migrate/AddPhotoToProduct.rb
     :cursor_offset: 161
     :timestamp: 2012-11-18 17:19:10 +01:00
@@ -183,9 +180,6 @@ cursor_positions:
   - :path: app/models/product.rb
     :cursor_offset: 68
     :timestamp: 2012-11-20 13:20:41 +01:00
-  - :path: app/views/store/index.html.erb
-    :cursor_offset: 415
-    :timestamp: 2012-11-18 17:25:24 +01:00
   - :path: config/database.yml
     :cursor_offset: 551
     :timestamp: 2012-11-22 18:31:03 +01:00
@@ -207,4 +201,13 @@ cursor_positions:
   - :path: config/environments/development.rb
     :cursor_offset: 1373
     :timestamp: 2012-11-21 07:29:00 +01:00
+  - :path: app/views/store/index.html.erb
+    :cursor_offset: 415
+    :timestamp: 2012-11-18 17:25:24 +01:00
+  - :path: app/views/layouts/_header.html.erb
+    :cursor_offset: 104
+    :timestamp: 2012-11-18 16:49:02 +01:00
+  - :path: app/assets/stylesheets/style.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-11-17 17:50:30 +01:00
 files_to_retain: 0
