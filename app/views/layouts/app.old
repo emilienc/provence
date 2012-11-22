@@ -3,7 +3,7 @@
 <head>
   <title>Provence</title>
   <%= stylesheet_link_tag    :style, :media => "all" %>
- 
+  <%= stylesheet_link_tag    'menu/css/simple_menu.css', :media => "all" %>
   <%= stylesheet_link_tag    'css/prettyPhoto.css', :media => "all" %>
   <%= stylesheet_link_tag    'css/gridNavigation.css', :media => "all" %>
   <script src="js/jquery.min.js" type="text/javascript">

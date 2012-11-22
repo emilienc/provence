@@ -210,4 +210,7 @@ cursor_positions:
   - :path: app/assets/stylesheets/style.css.scss
     :cursor_offset: 0
     :timestamp: 2012-11-17 17:50:30 +01:00
+  - :path: app/views/layouts/app.old
+    :cursor_offset: 1286
+    :timestamp: 2012-11-22 19:20:06 +01:00
 files_to_retain: 0
