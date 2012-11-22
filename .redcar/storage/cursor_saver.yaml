@@ -92,9 +92,6 @@ cursor_positions:
   - :path: config/dropbox.yml
     :cursor_offset: 9
     :timestamp: 2012-11-19 18:46:58 +01:00
-  - :path: config/database.yml
-    :cursor_offset: 0
-    :timestamp: 2012-11-17 08:10:29 +01:00
   - :path: config/application.rb
     :cursor_offset: 166
     :timestamp: 2012-11-19 19:32:21 +01:00
@@ -200,4 +197,13 @@ cursor_positions:
   - :path: app/views/store/index.html.erb
     :cursor_offset: 415
     :timestamp: 2012-11-18 17:25:24 +01:00
+  - :path: config/database.yml
+    :cursor_offset: 551
+    :timestamp: 2012-11-22 18:31:03 +01:00
+  - :path: app/assets/stylesheets/transaction.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-11-21 13:05:05 +01:00
+  - :path: app/assets/stylesheets/active_admin.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-11-22 07:19:28 +01:00
 files_to_retain: 0

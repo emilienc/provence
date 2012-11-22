@@ -20,10 +20,4 @@ test:
   host: localhost
   username: postgres
   password: clealizee
-
-production:
-  adapter: postgresql
-  database: provence_prod
-  host: localhost
-  username: postgres
-  password: clealizee
+  

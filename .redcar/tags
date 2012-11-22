@@ -1,4 +1,4 @@
-1353604507
+1353605673
 AddAttachmentPhotoToProducts	/Users/emilien/Documents/projets/provence/db/migrate/20121118162011_add_attachment_photo_to_products.rb	class AddAttachmentPhotoToProducts 
 AddOrderIdToLineItem	/Users/emilien/Documents/projets/provence/db/migrate/20121120073026_add_order_id_to_line_item.rb	class AddOrderIdToLineItem 
 AdminUser	/Users/emilien/Documents/projets/provence/app/models/admin_user.rb	class AdminUser 
